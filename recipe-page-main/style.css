@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Young Serif", serif;
+    background-color: #f3e6d8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+
+.recipe-image{
+    width: 100%;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+.recipe-card{
+    background-color: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 4px 20px #0000000d;
+}
+.h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
